@@ -1,0 +1,24 @@
+odd = 0
+even = 0
+num = 1
+
+while num != 0:
+    num = int(input("Shkruaj nje numer(0 per te ndaluar): "))
+
+    if num % 2 == 0 and num != 0:
+        even += 1
+    elif num % 2 != 0:
+        odd += 1
+print("Numra cift:", even)
+print("Numra tek:",odd)
+#Exersise 2
+blocks = int(input("Shkruaj numrin e blloqeve: "))
+
+layers = 0
+needed_blocks = 1
+
+while blocks >= needed_blocks:
+    blocks -= needed_blocks
+    layers +=1
+    
+    prin(Numri i shtresave)
